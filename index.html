@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A Unit converter; from meters/feet, liters/Gallons">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Unit Converter</title>
+</head>
+
+<body>
+    <main class="unit-converter">
+        <div class="title-area">
+            <h1>Metric/Imperial Unit Conversion</h1>
+            <input type="text" id="input-area" />
+            <button id="convert">Convert</button>
+        </div>
+
+
+        <div class="output-section">
+            <div class="output">
+                <h3>Length(Meter/Feet)</h3>
+                <p id="for-length"></p>
+            </div>
+            <div class="output">
+                <h3>Volume(liters/Gallons)</h3>
+                <p id="for-volume"></p>
+            </div>
+            <div class="output">
+                <h3>Mass(Kilograms/Pounds)</h3>
+                <p id="for-mass"></p>
+            </div>
+        </div>
+
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
